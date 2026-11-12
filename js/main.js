@@ -60,7 +60,7 @@
         '',
         String(d.get('message') || '')
       ].join('\n');
-      var to = form.getAttribute('data-to') || 'admin@captiosys.com';
+      var to = form.getAttribute('data-to') || 'admin@captiosys.in';
       var href = 'mailto:' + to + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
       var out = document.getElementById('form-result');
       if (out) {

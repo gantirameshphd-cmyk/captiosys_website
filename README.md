@@ -21,7 +21,7 @@ The company logo is unchanged: the red/blue ring icon with the "Captiosys" wordm
 
 ## Before going live
 
-1. **Email**: the site uses `admin@captiosys.com` (footer, contact page, form). Make sure that mailbox is active.
+1. **Email**: the site uses `admin@captiosys.in` (footer, contact page, form). Make sure that mailbox is active.
 2. **Contact form**: it currently opens the visitor's email app with the message filled in. To capture leads directly, point it at an endpoint (API Gateway + Lambda + SES, or Formspree) in `js/main.js`.
 3. **Vytel claims**: the pilot details (6:30–11:00 AM slots, 30-minute window, NABL partners, 6 AM–8 PM support) come from the pilot plan. Update them if they change before launch.
 4. **Analytics**: add your tag before `</head>` if you want it.
